@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "packz:block/shootm_iron_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "packz:block/shootm_iron_log"
+    },
+    "axis=z": {
+      "model": "packz:block/shootm_iron_log",
+      "x": 90
+    }
+  }
+}

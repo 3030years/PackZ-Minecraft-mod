@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:copper_block"
+    },
+    "1": {
+      "item": "minecraft:copper_block"
+    },
+    "2": {
+      "item": "minecraft:copper_block"
+    },
+    "3": {
+      "item": "minecraft:copper_block"
+    },
+    "5": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "packz:shootmdown_armor_helmet",
+    "count": 1
+  }
+}

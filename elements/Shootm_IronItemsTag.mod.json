@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Shootm_IronWood"
+      },
+      {
+        "value": "CUSTOM:Shootm_IronLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "shootm_iron_log",
+    "namespace": "forge"
+  }
+}

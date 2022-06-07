@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:copper_block"
+    },
+    "1": {
+      "item": "minecraft:copper_block"
+    },
+    "2": {
+      "item": "minecraft:copper_block"
+    },
+    "3": {
+      "item": "minecraft:copper_block"
+    },
+    "5": {
+      "item": "minecraft:copper_block"
+    },
+    "6": {
+      "item": "minecraft:copper_block"
+    },
+    "8": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "packz:shootmdown_armor_leggings",
+    "count": 1
+  }
+}

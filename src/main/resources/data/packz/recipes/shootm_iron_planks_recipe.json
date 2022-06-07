@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:shootm_iron_log"
+    }
+  ],
+  "result": {
+    "item": "packz:shootm_iron_planks",
+    "count": 4
+  }
+}

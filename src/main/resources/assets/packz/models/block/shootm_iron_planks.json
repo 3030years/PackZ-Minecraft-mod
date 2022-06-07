@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "packz:blocks/shootm_iron_planks",
+    "particle": "packz:blocks/shootm_iron_planks"
+  }
+}

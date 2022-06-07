@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "packz:shootm_iron_planks"
+    }
+  ],
+  "result": {
+    "item": "packz:shootm_iron_button",
+    "count": 1
+  }
+}

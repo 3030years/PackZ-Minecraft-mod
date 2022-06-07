@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "packz:blocks/shootm_iron_log_top",
+    "up": "packz:blocks/shootm_iron_log_top",
+    "north": "packz:blocks/shootm_iron_log_side",
+    "east": "packz:blocks/shootm_iron_log_side",
+    "south": "packz:blocks/shootm_iron_log_side",
+    "west": "packz:blocks/shootm_iron_log_side",
+    "particle": "packz:blocks/shootm_iron_log_top"
+  }
+}

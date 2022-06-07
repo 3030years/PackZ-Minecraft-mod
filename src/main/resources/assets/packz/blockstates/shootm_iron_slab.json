@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "packz:block/shootm_iron_slab"
+    },
+    "type=top": {
+      "model": "packz:block/shootm_iron_slab_top"
+    },
+    "type=double": {
+      "model": "packz:block/shootm_iron_slab_full"
+    }
+  }
+}

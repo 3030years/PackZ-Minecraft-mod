@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "packz:shootm_iron_planks"
+    },
+    "3": {
+      "item": "packz:shootm_iron_planks"
+    },
+    "4": {
+      "item": "packz:shootm_iron_planks"
+    },
+    "6": {
+      "item": "packz:shootm_iron_planks"
+    },
+    "7": {
+      "item": "packz:shootm_iron_planks"
+    },
+    "8": {
+      "item": "packz:shootm_iron_planks"
+    }
+  },
+  "result": {
+    "item": "packz:shootm_iron_stairs",
+    "count": 4
+  }
+}

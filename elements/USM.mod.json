@@ -1,0 +1,40 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "usm",
+    "customModelName": "Normal",
+    "name": "USM",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Shootm"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:UnyAmmo"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": true,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 25.0,
+    "bulletDamage": 50.0,
+    "bulletKnockback": 0,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:UnyAmmo"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletFlyingTick": {
+      "name": "USMWhileProjectileFlyingTick"
+    }
+  }
+}

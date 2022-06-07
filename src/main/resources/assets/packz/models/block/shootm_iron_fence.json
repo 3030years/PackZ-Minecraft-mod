@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "packz:blocks/shootm_iron_planks",
+    "particle": "packz:blocks/shootm_iron_planks"
+  }
+}

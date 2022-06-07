@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "packz:blocks/shootm_iron_planks"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "mod_elements": [
+    {
+      "name": "Shootm",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm"
+    },
+    {
+      "name": "UnyAmmoItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uny_ammo_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnyAmmo",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uny_ammo"
+    },
+    {
+      "name": "Boom",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom"
+    },
+    {
+      "name": "TEMPITEM1",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempitem_1"
+    },
+    {
+      "name": "USM",
+      "type": "rangeditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usm"
+    },
+    {
+      "name": "USMWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usm_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dummyentity",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummyentity"
+    },
+    {
+      "name": "DummyGUI",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummy_gui"
+    },
+    {
+      "name": "ShootmDownPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_down_pickaxe"
+    },
+    {
+      "name": "ShootmDownAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_down_axe"
+    },
+    {
+      "name": "ShootmDownSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_down_sword"
+    },
+    {
+      "name": "ShootmDownShovel",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_down_shovel"
+    },
+    {
+      "name": "ShootmDownHoe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_down_hoe"
+    },
+    {
+      "name": "ShootmDownPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_down_pickaxe_recipe"
+    },
+    {
+      "name": "ShootmDownAxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_down_axe_recipe"
+    },
+    {
+      "name": "ShootmDownSwordRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_down_sword_recipe"
+    },
+    {
+      "name": "ShootmDownShovelRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_down_shovel_recipe"
+    },
+    {
+      "name": "ShootmDownHoeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_down_hoe_recipe"
+    },
+    {
+      "name": "ShootmdownArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootmdown_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ShootmdownArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootmdown_armor_helmet_recipe"
+    },
+    {
+      "name": "ShootmdownArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootmdown_armor_body_recipe"
+    },
+    {
+      "name": "ShootmdownArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootmdown_armor_leggings_recipe"
+    },
+    {
+      "name": "ShootmdownArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootmdown_armor_boots_recipe"
+    },
+    {
+      "name": "DummyGuiItemmove",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummy_gui_itemmove",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shootm_IronWood",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_wood"
+    },
+    {
+      "name": "Shootm_IronLog",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_log"
+    },
+    {
+      "name": "Shootm_IronPlanks",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_planks"
+    },
+    {
+      "name": "Shootm_IronLeaves",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_leaves"
+    },
+    {
+      "name": "Shootm_IronStairs",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_stairs"
+    },
+    {
+      "name": "Shootm_IronSlab",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_slab"
+    },
+    {
+      "name": "Shootm_IronFence",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_fence"
+    },
+    {
+      "name": "Shootm_IronFenceGate",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_fence_gate"
+    },
+    {
+      "name": "Shootm_IronPressurePlate",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_pressure_plate"
+    },
+    {
+      "name": "Shootm_IronButton",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_button"
+    },
+    {
+      "name": "Shootm_IronItemsTag",
+      "type": "tag",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_items_tag"
+    },
+    {
+      "name": "Shootm_IronWoodRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_wood_recipe"
+    },
+    {
+      "name": "Shootm_IronPlanksRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_planks_recipe"
+    },
+    {
+      "name": "Shootm_IronStairsRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_stairs_recipe"
+    },
+    {
+      "name": "Shootm_IronSlabRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_slab_recipe"
+    },
+    {
+      "name": "Shootm_IronFenceRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_fence_recipe"
+    },
+    {
+      "name": "Shootm_IronFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_fence_gate_recipe"
+    },
+    {
+      "name": "Shootm_IronPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_pressure_plate_recipe"
+    },
+    {
+      "name": "Shootm_IronButtonRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_button_recipe"
+    },
+    {
+      "name": "Shootm_IronStickRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shootm_iron_stick_recipe"
+    },
+    {
+      "name": "AllowShootm",
+      "type": "gamerule",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allowShootm",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "PackzCommandExecuted",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packz_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Packz",
+      "type": "command",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packz"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "TNTX",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.packz.shootmdown_armor_boots": "Shootmdown Boots",
+      "block.packz.shootm_iron_leaves": "Shootm_Iron Leaves",
+      "block.packz.shootm_iron_button": "Shootm Iron Button",
+      "block.packz.shootm_iron_pressure_plate": "Shootm Iron Pressure Plate",
+      "block.packz.shootm_iron_planks": "Shootm Iron Cut",
+      "block.packz.shootm_iron_fence": "Shootm Iron Fence",
+      "item.packz.shootm_down_shovel": "ShootmDown Shovel",
+      "item.packz.shootmdown_armor_chestplate": "Shootmdown Chestplate",
+      "block.packz.shootm_iron_wood": "Shootm Iron",
+      "block.packz.shootm_iron_slab": "Shootm Iron Slab",
+      "itemGroup.tabshootm": "Shoot\u0027m down",
+      "item.packz.shootmdown_armor_leggings": "Shootmdown Leggings",
+      "item.packz.shootm_down_pickaxe": "ShootmDown Pickaxe",
+      "entity.packz.dummyentity": "My buddy",
+      "gamerule.allowShootm.description": "_",
+      "gamerule.allowShootm": "AllowShootmPack",
+      "item.packz.shootm_down_hoe": "ShootmDown Hoe",
+      "item.packz.shootmdown_armor_helmet": "Shootmdown Helmet",
+      "item.packz.dummyentity_spawn_egg": "My buddy Spawn Egg",
+      "block.packz.shootm_iron_stairs": "Shootm Iron Stairs",
+      "item.packz.usm": "USM",
+      "item.packz.tempitem_1": "TEMPITEM 1",
+      "block.packz.shootm_iron_log": "Shootm Iron Shaved",
+      "item.packz.uny_ammo": "Uny Ammo",
+      "item.packz.shootm_down_axe": "ShootmDown Axe",
+      "block.packz.shootm_iron_fence_gate": "Shootm Iron Fence Gate",
+      "item.packz.shootm_down_sword": "ShootmDown Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "packz",
+    "modName": "PackZ",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.packz",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
