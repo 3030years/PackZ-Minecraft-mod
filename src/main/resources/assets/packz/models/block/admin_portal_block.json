@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "packz:blocks/adminportalblock",
+    "up": "packz:blocks/adminportalblock",
+    "north": "packz:blocks/adminportalblock",
+    "east": "packz:blocks/adminportalblock",
+    "south": "packz:blocks/adminportalblock",
+    "west": "packz:blocks/adminportalblock",
+    "particle": "packz:blocks/adminportalblock"
+  }
+}

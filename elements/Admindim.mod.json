@@ -1,0 +1,42 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "void"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Shootm_IronWood"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Shootm_IronWood"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:AdminPortalBlock"
+    },
+    "portalParticles": {
+      "value": "REVERSE_PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Admin Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "hideig",
+    "portalTexture": "adminportalfiller",
+    "enablePortal": true
+  }
+}

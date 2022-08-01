@@ -20,6 +20,8 @@ import net.mcreator.packz.block.Shootm_IronLeavesBlock;
 import net.mcreator.packz.block.Shootm_IronFenceGateBlock;
 import net.mcreator.packz.block.Shootm_IronFenceBlock;
 import net.mcreator.packz.block.Shootm_IronButtonBlock;
+import net.mcreator.packz.block.AdmindimPortalBlock;
+import net.mcreator.packz.block.AdminPortalBlockBlock;
 import net.mcreator.packz.PackzMod;
 
 public class PackzModBlocks {
@@ -36,4 +38,6 @@ public class PackzModBlocks {
 	public static final RegistryObject<Block> SHOOTM_IRON_PRESSURE_PLATE = REGISTRY.register("shootm_iron_pressure_plate",
 			() -> new Shootm_IronPressurePlateBlock());
 	public static final RegistryObject<Block> SHOOTM_IRON_BUTTON = REGISTRY.register("shootm_iron_button", () -> new Shootm_IronButtonBlock());
+	public static final RegistryObject<Block> ADMIN_PORTAL_BLOCK = REGISTRY.register("admin_portal_block", () -> new AdminPortalBlockBlock());
+	public static final RegistryObject<Block> ADMINDIM_PORTAL = REGISTRY.register("admindim_portal", () -> new AdmindimPortalBlock());
 }

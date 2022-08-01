@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "packz:block/admin_portal_block"
+    }
+  }
+}

@@ -23,6 +23,7 @@ import net.mcreator.packz.item.ShootmDownShovelItem;
 import net.mcreator.packz.item.ShootmDownPickaxeItem;
 import net.mcreator.packz.item.ShootmDownHoeItem;
 import net.mcreator.packz.item.ShootmDownAxeItem;
+import net.mcreator.packz.item.AdmindimItem;
 import net.mcreator.packz.PackzMod;
 
 public class PackzModItems {
@@ -55,6 +56,8 @@ public class PackzModItems {
 	public static final RegistryObject<Item> SHOOTM_IRON_FENCE_GATE = block(PackzModBlocks.SHOOTM_IRON_FENCE_GATE, PackzModTabs.TAB_SHOOTM);
 	public static final RegistryObject<Item> SHOOTM_IRON_PRESSURE_PLATE = block(PackzModBlocks.SHOOTM_IRON_PRESSURE_PLATE, PackzModTabs.TAB_SHOOTM);
 	public static final RegistryObject<Item> SHOOTM_IRON_BUTTON = block(PackzModBlocks.SHOOTM_IRON_BUTTON, PackzModTabs.TAB_SHOOTM);
+	public static final RegistryObject<Item> ADMIN_PORTAL_BLOCK = block(PackzModBlocks.ADMIN_PORTAL_BLOCK, PackzModTabs.TAB_SHOOTM);
+	public static final RegistryObject<Item> ADMINDIM = REGISTRY.register("admindim", () -> new AdmindimItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
